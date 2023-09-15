@@ -9,9 +9,16 @@ body {
     overflow-wrap: break-word;
 }
 
+
 @media screen and (max-width: 788px) {
     body{
-        width: auto;  
+        width: auto; 
+        margin: 0px;
+        padding: 0px;
+        color: #242424;
+        font-family: Arial, Helvetica, sans-serif;
+        word-wrap: break-word;
+        overflow-wrap: break-word; 
     }
 }
 
@@ -58,7 +65,6 @@ main {
 }
 
 .container {
-    width: 100%;
     max-width: 750px;
     margin: 0 auto;
     padding: 0 20px;
