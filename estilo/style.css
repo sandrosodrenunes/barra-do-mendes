@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -8,7 +14,6 @@ body {
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
-
 
 @media screen and (max-width: 788px) {
     body{
@@ -22,7 +27,6 @@ body {
     }
 }
 
-
 h1, h2, h3, h4, h5, h6 {
     font-weight: bolder;
     color: black;
@@ -30,29 +34,39 @@ h1, h2, h3, h4, h5, h6 {
 
 header{
     background-color: black;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
+
+header h1 {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+header ul li {
+    display: block;
+}
+
 nav{
     background-color: black;
     padding: 20px 20px 10px 30px;
 }
 
-nav a{
+nav > ul > li > a {
+    display: block;
     color: white;
     text-decoration: none;
-    padding: 20px;
+    padding: 10px;
     font-weight: bolder;
+    text-align: center;
 }
 
-
-nav a:hover{
+nav > ul > li > a:hover{
     background-color: rgb(160, 158, 158);
     text-decoration: underline;
     border-radius: 5px;
     transition: .3s;
 }
-
-
 
 .wrapper {
     width: 100%;
@@ -201,3 +215,23 @@ section.module.content.footer h2 {
     padding: 0px;
     text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.582);
 }
+
+
+.material-symbols-outlined {
+    background-color: rgb(87, 86, 86);
+    display: block !important;
+    padding: 10px;
+    color: white;
+    text-align: center;
+
+    font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+  }
+
+  .material-symbols-outlined:hover{
+    background-color: rgb(46, 46, 46);
+}
+
