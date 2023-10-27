@@ -225,7 +225,7 @@ a {
 }
 
 .hero-texto__titulo--linha-3 {
-	font-size: 5rem;
+	font-size: 3rem;
 }
 
 @media screen and (min-width: 960px) {
