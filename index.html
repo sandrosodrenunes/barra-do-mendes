@@ -1,100 +1,80 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo/style.css">
-    <link rel="stylesheet" href="estilo/media-query.css">
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <title>Efeito Parallax</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Barra do Mendes</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+	integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+	crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" 
+	rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+	referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
-    <header>
-        <h1>Barra do Mendes Online</h1>
-        <span class="material-symbols-outlined" onclick="clickMenu()">Menu</span>
-        <nav id="menu">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Notícia</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class="wrapper">
-        <section class="module parallax parallax-1">
-            <h1>Barra do Mendes Online</h1>
-        </section>
-        <section class="module content">
-            <!--Card 01-->
-            <div class="container">
-                <div class="module container-card">
-                    <div class="module card" id="card-1">
-                        <div class="module content-card">
-                            <h2></h2>
-                            <h2>Vereador ítalo Motanha</h2>
-                            <p>Texto aqui</p>
-                        </div>
-                    </div>
-                    <!--Card 02-->
-                    <div class="module card" id="card-2">
-                        <div class="module content-card">
-                            <h2></h2>
-                            <h2>Prefeito Tonho de Napo</h2>
-                            <p>Texto aqui</p>
-                        </div>
-                    </div>
-                    <!--Card 03-->
-                    <div class="module card" id="card-3">
-                        <div class="module content-card">
-                            <h2></h2>
-                            <h2>Ex prefeito Dr. Néu</h2>
-                            <p>Texto aqui</p>
-                        </div>
-                    </div>
-                    <!--Card 04-->
-                    <div class="module card" id="card-4">
-                        <div class="module content-card">
-                            <h2></h2>
-                            <h2>Vereadora Suely</h2>
-                            <p>Texto aqui</p>
-                        </div>
-                    </div>
-                </div>
-        </section>
-        <section class="module parallax parallax-2">
-            <h1>Texto aqui</h1>
-        </section>
-        <section class="module content">
-            <div class="container">
-                <h2>Qualquer texto aqui...</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime repellendus sit voluptates
-                    aperiam mollitia autem quibusdam quisquam odit accusantium aliquid optio, aspernatur temporibus
-                    laudantium expedita numquam harum vero minima. Tempore.</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime repellendus sit voluptates
-                    aperiam mollitia autem quibusdam quisquam odit accusantium aliquid optio, aspernatur temporibus
-                    laudantium expedita numquam harum vero minima. Tempore.</p>
-            </div>
-        </section>
-        <section class="module parallax parallax-3">
-            <h1>Terceiro texto aqui</h1>
-        </section>
-        <section class="module content footer">
-            <div class="container">
-                <h2>Qualquer texto aqui...</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime repellendus sit voluptates
-                    aperiam mollitia autem quibusdam quisquam odit accusantium aliquid optio, aspernatur temporibus
-                    laudantium expedita numquam harum vero minima. Tempore.</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime repellendus sit voluptates
-                    aperiam mollitia autem quibusdam quisquam odit accusantium aliquid optio, aspernatur temporibus
-                    laudantium expedita numquam harum vero minima. Tempore.</p>
-            </div>
-        </section>
-    </main>
-    <script src="app/app.js"></script>
-</body>
+	<header id="home">
+		<nav class="navbar">
+			<div class="navbar-header">
+				<img src="assets/logo80.png" alt="Meet Minas" class="navbar-header__logo">
+				<button type="button" class="navbar-header__toggle">
+					<i class="fas fa-bars"></i>
+				</button>
+			</div> <!-- navbar-header -->
 
+			<ul class="navbar-list">
+				<li>
+					<a href="#home" class="navbar-list__link">Home</a>
+				</li>
+				<li>
+					<a href="#sobre" class="navbar-list__link">Sobre Nós</a>
+				</li>
+				<li>
+					<a href="#diferenciais" class="navbar-list__link">Diferenciais</a>
+				</li>
+				<li>
+					<a href="#pacotes" class="navbar-list__link">Pacotes</a>
+				</li>
+				<li>
+					<a href="#galeria" class="navbar-list__link">Galeria</a>
+				</li>
+			</ul> <!--navbar-list-->
+			
+			<ul class="navbar-icons">
+				<li>
+					<a href="https://twitter.com/" class="navbar-icons__icon">
+						<i class=" fab  fa-twitter"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://facebook.com/" class="navbar-icons__icon">
+						<i class=" fab  fa-facebook"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://instagran.com/" class="navbar-icons__icon">
+						<i class=" fab  fa-instagram"></i>
+					</a>
+				</li>
+			</ul><!--navbar-icons-->
+
+		</nav> <!-- Navbar -->
+
+		<div class="hero">
+			<video src="assets/barradomendesvideo.mp4" autoplay muted loop class="hero__video"></video>
+			<div class="hero-texto">
+				<h1 class="hero-texto__titulo">
+					Conheça <br> Barra do Mendes <br> <span class="hero-texto__titulo--linha-2">que os Barramendense amam</span>
+				</h1>
+				<p class="hero-texto__descricao">Site ainda em construção</p>
+				<a href="#" class="hero-texto__cta">Explore</a>
+			</div><!-- hero-texto -->
+		</div><!-- hero -->
+
+	</header> <!-- Home -->
+	<script src="js/scripts.js"></script>
+</body>
 </html>
