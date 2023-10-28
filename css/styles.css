@@ -191,7 +191,8 @@ a {
 }
 
 .hero-texto__titulo {
-	font-size: 5.2rem;
+	/* font-size: 5.2rem; */
+	font-size: 3.2rem;
 	font-weight: 900;
 	color: var(--clr-white);
 	text-transform: uppercase;
@@ -224,20 +225,12 @@ a {
 	letter-spacing: 1.6rem;
 }
 
-.hero-texto__titulo--linha-3 {
-	font-size: 4rem;
-}
-
 @media screen and (min-width: 960px) {
 	.hero-texto__titulo {
 		font-size: 7.2rem;
 	}
 
 	.hero-texto__titulo--linha-2 {
-		font-size: 6.4rem;
-	}
-
-	.hero-texto__titulo--linha-3 {
 		font-size: 6.4rem;
 	}
 
