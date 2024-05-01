@@ -14,67 +14,262 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
 	referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="css/styles.css">
+
+	<!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- google font inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
 	<header id="home">
 		<nav class="navbar">
-			<div class="navbar-header">
-				<img src="assets/logo80.png" alt="Meet Minas" class="navbar-header__logo">
-				<button type="button" class="navbar-header__toggle">
-					<i class="fas fa-bars"></i>
-				</button>
-			</div> <!-- navbar-header -->
-
-			<ul class="navbar-list">
-				<li>
-					<a href="#home" class="navbar-list__link">Home</a>
-				</li>
-				<li>
-					<a href="#sobre" class="navbar-list__link">Sobre Nós</a>
-				</li>
-				<li>
-					<a href="#diferenciais" class="navbar-list__link">Diferenciais</a>
-				</li>
-				<li>
-					<a href="#pacotes" class="navbar-list__link">Pacotes</a>
-				</li>
-				<li>
-					<a href="#galeria" class="navbar-list__link">Galeria</a>
-				</li>
-			</ul> <!--navbar-list-->
-			
-			<ul class="navbar-icons">
-				<li>
-					<a href="https://twitter.com/" class="navbar-icons__icon">
-						<i class=" fab  fa-twitter"></i>
-					</a>
-				</li>
-				<li>
-					<a href="https://facebook.com/" class="navbar-icons__icon">
-						<i class=" fab  fa-facebook"></i>
-					</a>
-				</li>
-				<li>
-					<a href="https://instagran.com/" class="navbar-icons__icon">
-						<i class=" fab  fa-instagram"></i>
-					</a>
-				</li>
-			</ul><!--navbar-icons-->
+			<div class="container">
+				<div class="navbar-header">
+					<img src="assets/logo80.png" alt="Barra Do Mendes" class="navbar-header__logo">
+					<button type="button" class="navbar-header__toggle">
+						<i class="fas fa-bars"></i>
+					</button>
+				</div> <!-- navbar-header -->
+				<ul class="navbar-list">
+					<li>
+						<a href="#home" class="navbar-list__link">Home</a>
+					</li>
+					<li>
+						<a href="#sobre" class="navbar-list__link">Sobre Nós</a>
+					</li>
+					<li>
+						<a href="#diferenciais" class="navbar-list__link">Diferenciais</a>
+					</li>
+					<li>
+						<a href="#pacotes" class="navbar-list__link">Pacotes</a>
+					</li>
+					<li>
+						<a href="#galeria" class="navbar-list__link">Galeria</a>
+					</li>
+				</ul> <!--navbar-list-->
+				
+				<ul class="navbar-icons">
+					<li>
+						<a href="https://twitter.com/" class="navbar-icons__icon">
+							<i class=" fab  fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://facebook.com/" class="navbar-icons__icon">
+							<i class=" fab  fa-facebook"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://instagran.com/" class="navbar-icons__icon">
+							<i class=" fab  fa-instagram"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!--navbar-icons-->
 
 		</nav> <!-- Navbar -->
 
 		<div class="hero">
 			<video src="assets/barradomendesvideo.mp4" autoplay muted loop class="hero__video"></video>
-			<div class="hero-texto">
-				<h1 class="hero-texto__titulo">
-					Conheça <br> Barra do Mendes <br> <span class="hero-texto__titulo--linha-2">que os <br> Barramendenses <br> amam</span>
-				</h1>
-				<p class="hero-texto__descricao">Site ainda em construção</p>
-				<a href="#" class="hero-texto__cta">Explore</a>
-			</div><!-- hero-texto -->
+			<div class="container">
+				<div class="hero-texto">
+					<h1 class="hero-texto__titulo">
+						BarradoMendes.Online
+					</h1>
+					<p class="hero-texto__descricao">Site ainda em construção</p>
+					<!-- <a href="#" class="hero-texto__cta">Explore</a> -->
+				</div><!-- hero-texto -->
+			</div>
 		</div><!-- hero -->
+
+		<section id="beneficios" class="default-section-template"> 
+			<div class="container">
+			  <h1>Principais <span class="color-primary">benefícios</span></h1>
+			  <p class="text-center lead mt-3 mb-5">
+				Encontre aqui sua lista dos principais benefícios que escolhemos para você
+			  </p>
+			  <!-- cards -->
+			  <div class="row">
+				<div class="col-md-6 mt-2" id="lista-01">
+				  <a class="btn btn-lg beneficios-button" href="#" role="button"></a>
+				</div>
+				<div class="col-md-6 mt-2">
+				  <a class="btn btn-secondary btn-lg beneficios-button" href="#" role="button">02</a>
+				</div>
+				<div class="col-md-6 mt-2">
+				  <a class="btn btn-secondary btn-lg beneficios-button" href="#" role="button">03</a>
+				</div>
+				<div class="col-md-6 mt-2">
+				  <a class="btn btn-primary btn-lg beneficios-button" href="#" role="button">04</a>
+				</div>
+				<div class="col-md-6 mt-2">
+				  <a class="btn btn-primary btn-lg beneficios-button" href="#" role="button">05</a>
+				</div>
+				<div class="col-md-6 mt-2">
+				  <a class="btn btn-secondary btn-lg beneficios-button" href="#" role="button">06</a>
+				</div>
+			  </div>
+			  <!-- cards -->
+			</div>
+		  </section>
+	  
+		  <!-- card noticia -->
+		  <section id="noticias" class="container default-section-template">
+			<h1 class="mb-5 mt-5">Principais <span class="color-primary">Notícias</span></h1>
+			<!-- cards -->
+			<div class="row mt-2 mb-3">
+			  <div class="col-12 col-sm-12 col-lg-6 col-lg-6 mb-2">
+				<a target="_blank" href="https://globoplay.globo.com/v/12485321/">
+				  <div class="card">
+					<img src="https://s02.video.glbimg.com/x360/12485321.jpg" class="card-img-top">
+					<div class="card-body">
+					  <h1 class="card-title">Advogado fala sobre como garantir os direitos dos idosos</h1>
+					  <p class="card-text">Veja quais são os principais e o que fazer caso não seja cumprido.</p>
+					</div>
+				  </div>
+				</a>
+				</div>
+			  <div class="col-12 col-sm-12 col-lg-6 col-lg-6">
+				<a href="">
+				  <div class="card">
+					<img src="https://source.unsplash.com/random/900x350?x=5" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <h1 class="card-title">Card title</h1>
+					  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					</div>
+				  </div>
+				</a>
+			  </div>
+			  <div class="col-12 col-sm-12 col-lg-6 col-lg-6">
+				<a href="">
+				  <div class="card">
+					<img src="https://source.unsplash.com/random/900x350?x=6" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <h1 class="card-title">Card title</h1>
+					  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+					</div>
+				  </div>
+				</a>
+			  </div>
+			  <div class="col-12 col-sm-12 col-lg-6 col-lg-6">
+				<a href="">
+				  <div class="card">
+					<img src="https://source.unsplash.com/random/900x350?x=7" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <h1 class="card-title">Card title</h1>
+					  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					</div>
+				  </div>
+				</a>
+			  </div>
+			</div>
+		  </section>
+		  <!-- cards -->
+	  
+		  <!-- sobre nos -->
+		  <section id="sobre" class="container default-section-template">
+			<hr class="featurette-divider">
+			<h1 class="mb-5">Sobre <span class="color-primary">Nós</span></h1>
+			<div class="container marketing">
+			  <div class="row featurette">
+				<div class="col-md-7">
+				  <h2 class="featurette-heading fw-normal lh-1 color-primary">InfoSocial</h2>
+				  <p class="lead">Este site visa resolver esses problemas fornecendo uma plataforma simples e fácil de usar onde os idosos podem facilmente encontrar as informações de que precisam, incluindo informações sobre benefícios do governo. Além disso, o site será projetado com uma interface amigável e intuitiva para tornar a navegação e o uso do site o mais fácil possível para os idosos.</p>
+				</div>
+				<div class="col-md-5">
+				   <img id="img-sobre" src="./assets/meninoBorboleta-1.png" alt="">
+				</div>
+			  </div>
+			  <hr class="featurette-divider">
+			</div>
+		  </section>
+		  <!-- sobre nos -->
+	  
+		  <!-- perguntas frequentes -->
+		  <section id="faq" class="container default-section-template">
+			<h1 class="mb-5">Perguntas <span class="color-primary">Frequentes</span></h1>
+			<div id="accordion">
+			  <div class="card">
+				<div class="card-header" id="headingOne">
+				  <h5 class="mb-0">
+					<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+					  <h1 class="perguntas">Pergunta 1</h1>
+					</button>
+				  </h5>
+				</div>
+			
+				<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+				  <div class="card-body">
+					Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+				  </div>
+				</div>
+			  </div>
+			  <div class="card">
+				<div class="card-header" id="headingTwo">
+				  <h5 class="mb-0">
+					<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+					  <h1 class="perguntas">Pergunta 2</h1>
+					</button>
+				  </h5>
+				</div>
+				<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+				  <div class="card-body">
+					Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+				  </div>
+				</div>
+			  </div>
+			  <div class="card">
+				<div class="card-header" id="headingThree">
+				  <h5 class="mb-0">
+					<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+					  <h1 class="perguntas">Pergunta 3</h1>
+					</button>
+				  </h5>
+				</div>
+				<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+				  <div class="card-body">
+					Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </section>
+		<!-- perguntas frequentes -->
+	  
+		<!-- form -->
+		<section id="duvidas" class="container default-section-template">
+		  <h1 class="mb-5">Mande sua <span class="color-primary">dúvida</span></h1>
+		  <form>
+			<label for="exampleFormControlInput1">Nome Completo:</label>
+			<div class="form-group">
+			  <input class="form-control" type="text" placeholder="seu nome completo aqui...">
+			</div>
+			<div class="form-group">
+			  <label for="exampleFormControlInput1">Endereço de email:</label>
+			  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+			</div>
+			<div class="form-group">
+			  <label for="exampleFormControlSelect2">Assunto:</label>
+			</div>
+			<div class="form-group">
+			  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+			</div>
+			<button class="btn btn-primary my-2 my-sm-0">Enviar</button>
+		  </form>
+		</section>
+		<!-- form -->
 
 	</header> <!-- Home -->
 	<script src="js/scripts.js"></script>
+	<!-- external libs -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3cde837431.js" crossorigin="anonymous"></script>
 </body>
 </html>
