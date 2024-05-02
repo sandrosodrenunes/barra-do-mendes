@@ -55,6 +55,10 @@ a {
 	text-decoration: none;
 }
 
+header {
+	width: 102vw;
+}
+
 
 /**********************************/
 /* 2. Navbar
@@ -68,6 +72,16 @@ a {
 	padding: 1.6rem;
 	box-shadow: var(--dark-shadow);
 	z-index: 3;
+	font-weight: bolder;
+	font-size: 2.5rem;
+}
+
+.navbar-brand {
+	margin-right: 4rem !important;
+}
+
+.navbar-collapse {
+	margin-right: 4rem !important;
 }
 
 .navbar-header {
@@ -117,6 +131,11 @@ a {
 	display: none;
 }
 
+.navbar-header__logo {
+	width: 60px;
+}
+
+
 
 @media screen and (min-width: 992px) {
 	.navbar-header__toggle {
@@ -165,6 +184,13 @@ a {
 	}
 }
 
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 2.5rem !important;
+
+    }
+}
+
 
 /**********************************/
 /* 3. Hero
@@ -188,6 +214,7 @@ a {
 .hero-texto {
 	min-width: 37rem;
 	padding: 1.6rem;
+	text-align: center;
 }
 
 .hero-texto__titulo {
@@ -225,6 +252,11 @@ a {
 	letter-spacing: 1.6rem;
 }
 
+
+#img-logoBranco {
+	width: 50%;
+}
+
 @media screen and (min-width: 960px) {
 	.hero-texto__titulo {
 		font-size: 7.2rem;
@@ -246,6 +278,10 @@ a {
 /* 4. Sobre Nós
 /**********************************/
 
+
+#img-sobre {
+	width: 100% !important;
+}
 
 
 /**********************************/
