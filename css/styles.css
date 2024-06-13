@@ -92,6 +92,10 @@ header {
 	margin-bottom: 35px;
 }
 
+.hero {
+
+}
+
 /**********************************/
 /* 2. Navbar
 /**********************************/
@@ -238,10 +242,14 @@ header {
 /**********************************/
 
 .hero {
+	background-image: url(../assets/fotos-noticias/barra\ do\ mendes-fotor-20240613192825.png);
 	position: relative;
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
 }
 
 .hero__video {
