@@ -83,6 +83,15 @@ header {
 	font-weight: 400;
 }
 
+.card {
+	border-radius: 1.25rem !important;
+	height: 740px;
+}
+
+#h1-noticia {
+	margin-bottom: 35px;
+}
+
 /**********************************/
 /* 2. Navbar
 /**********************************/
