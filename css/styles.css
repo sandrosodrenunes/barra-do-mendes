@@ -78,8 +78,9 @@ header {
 
 #p-sobre {
 	font-size: 2rem;
-	text-align: justify;
+	text-align: left;
 	text-justify: inter-word;
+	font-weight: 400;
 }
 
 /**********************************/
@@ -198,11 +199,17 @@ header {
 		color: var(--clr-medium-green);
 	}
 
+	#p-sobre {
+		text-align: justify;
+	}
 }
 
 @media screen and (min-width: 1170px) {
 	.navbar {
 		padding: .8rem calc((100% - 117rem - 1.6rem) / 2);
+	}
+	#p-sobre {
+		text-align: justify;
 	}
 }
 
@@ -211,6 +218,9 @@ header {
         padding-right: 2.5rem !important;
 
     }
+	#p-sobre {
+		text-align: justify;
+	}
 }
 
 
