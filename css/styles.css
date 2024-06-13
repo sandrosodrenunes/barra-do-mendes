@@ -57,7 +57,7 @@ a {
 }
 
 header {
-	width: 121vw;
+	width: 102vw;
 }
 
 #h1-principal {
@@ -92,10 +92,6 @@ header {
 
 #h1-noticia {
 	margin-bottom: 35px;
-}
-
-.hero {
-
 }
 
 /**********************************/
@@ -217,6 +213,10 @@ header {
 	#p-sobre {
 		text-align: justify;
 	}
+
+	header {
+		width: 100vw;
+	}
 }
 
 @media screen and (min-width: 1170px) {
@@ -225,6 +225,10 @@ header {
 	}
 	#p-sobre {
 		text-align: justify;
+	}
+
+	header {
+		width: 100vw;
 	}
 }
 
@@ -235,6 +239,10 @@ header {
     }
 	#p-sobre {
 		text-align: justify;
+	}
+
+	header {
+		width: 100vw;
 	}
 }
 
@@ -316,11 +324,19 @@ header {
 		font-size: 6.4rem;
 	}
 
+	.hero {
+		background-attachment: fixed;
+	}
+
 }
 
 @media screen and (min-width: 1170px) {
 	.hero-texto {
 		padding: 1.6rem calc((100% - 117rem - 1.6rem) / 2);
+	}
+
+	.hero {
+		background-attachment: fixed;
 	}
 }
 
