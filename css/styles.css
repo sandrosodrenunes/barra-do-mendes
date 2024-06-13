@@ -57,7 +57,7 @@ a {
 }
 
 header {
-	width: 102vw;
+	width: 121vw;
 }
 
 #h1-principal {
@@ -249,7 +249,6 @@ header {
 	align-items: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-    background-attachment: fixed;
 }
 
 .hero__video {
