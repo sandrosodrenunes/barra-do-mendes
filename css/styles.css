@@ -112,6 +112,81 @@ header {
     margin-left: -15px;
 }
 
+.jumbotron-tassia {
+	background-image: url(../assets/fotos-noticias/tassiaComSombra.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	border-radius: 5px;
+
+	/* content: ""; */
+    /* background: linear-gradient(0deg,rgba(0,0,0,.6),rgba(0,0,0,.2) 40%,rgba(0,0,0,.2) 80%,rgba(0,0,0,.4)); */
+    /* z-index: 1; */
+}
+
+.jumbotron-pedra {
+	background-image: url(../assets/pedra/canarinaComSombra.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 70vh;
+	border-radius: 5px;
+	position: relative;
+}
+
+.jumbotron h1{
+	position: absolute;
+	bottom: 22px;
+	color: white;
+	font-size: 2rem;
+}
+
+.jumbotron p{
+	position: absolute;
+	bottom: 0;
+	color: white;
+}
+
+section p {
+	font-size: 1rem;
+	font-weight: 300;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.img-pedra {
+	display: block;
+	width: 100%;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+
+.img-art {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50vh; /* Ajuste conforme necessário */
+}
+
+.container-titulo {
+	max-width: 100%;
+}
+
+.container-noticia {
+	max-width: 100%;
+	display: flex;
+	/* flex-wrap: nowrap; */
+	align-items: center;
+	margin: auto;
+	flex-direction: column;
+}
+
+#obs {
+	font-weight: 100;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 /**********************************/
 /* 2. Navbar
 /**********************************/
@@ -238,6 +313,18 @@ header {
 	.card {
 		height: 800px;
 	}
+	section p {
+		font-size: 2rem;
+	}
+	container-noticia { 
+		max-width: 47%;
+	}
+	.container-titulo {
+		max-width: 47%;
+	}
+	.jumbotron h1{
+		font-size: 3rem;
+	}
 }
 
 @media screen and (min-width: 1170px) {
@@ -264,6 +351,9 @@ header {
 
 	header {
 		width: 100vw;
+	}
+	.img-pedra {
+		width: 40%;
 	}
 }
 
