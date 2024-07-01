@@ -24,14 +24,14 @@
 
 :root {
 	--ff-primary: sans-serif;
-	
-	--clr-background: 	#F5F5F5;
-	--clr-white: 		#F1FCDE;
-	--clr-black: 		#090E01;
-	--clr-light-green: 	#F22283;
+
+	--clr-background: #F5F5F5;
+	--clr-white: #F1FCDE;
+	--clr-black: #090E01;
+	--clr-light-green: #F22283;
 	--clr-medium-green: #BF2489;
-	--clr-dark-green: 	#702E8C;
-	
+	--clr-dark-green: #702E8C;
+
 	--spacing: 0.25rem;
 	--transition: all 0.2s linear;
 	--dark-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.2);
@@ -92,7 +92,7 @@ header {
 
 .card {
 	border-radius: 1.25rem !important;
-	height: 740px;
+	height: 600px;
 }
 
 #h1-noticia {
@@ -106,10 +106,10 @@ header {
 
 .row {
 	display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
 }
 
 .jumbotron-tassia {
@@ -121,8 +121,8 @@ header {
 	border-radius: 5px;
 
 	/* content: ""; */
-    /* background: linear-gradient(0deg,rgba(0,0,0,.6),rgba(0,0,0,.2) 40%,rgba(0,0,0,.2) 80%,rgba(0,0,0,.4)); */
-    /* z-index: 1; */
+	/* background: linear-gradient(0deg,rgba(0,0,0,.6),rgba(0,0,0,.2) 40%,rgba(0,0,0,.2) 80%,rgba(0,0,0,.4)); */
+	/* z-index: 1; */
 }
 
 .jumbotron-pedra {
@@ -144,8 +144,8 @@ header {
 	border-radius: 5px;
 
 	/* content: ""; */
-    /* background: linear-gradient(0deg,rgba(0,0,0,.6),rgba(0,0,0,.2) 40%,rgba(0,0,0,.2) 80%,rgba(0,0,0,.4)); */
-    /* z-index: 1; */
+	/* background: linear-gradient(0deg,rgba(0,0,0,.6),rgba(0,0,0,.2) 40%,rgba(0,0,0,.2) 80%,rgba(0,0,0,.4)); */
+	/* z-index: 1; */
 }
 
 .jumbotron-anuncie {
@@ -157,14 +157,14 @@ header {
 	border-radius: 5px;
 }
 
-.jumbotron h1{
+.jumbotron h1 {
 	position: absolute;
 	bottom: 40px;
 	color: white;
 	font-size: 2rem;
 }
 
-.jumbotron p{
+.jumbotron p {
 	position: absolute;
 	bottom: 0;
 	color: white;
@@ -188,7 +188,8 @@ section p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 50vh; /* Ajuste conforme necessário */
+	height: 50vh;
+	/* Ajuste conforme necessário */
 }
 
 .container-titulo {
@@ -346,19 +347,24 @@ img {
 	header {
 		width: 100vw;
 	}
+
 	.card {
 		height: 800px;
 	}
+
 	section p {
 		font-size: 2rem;
 	}
-	container-noticia { 
+
+	container-noticia {
 		max-width: 47%;
 	}
+
 	.container-titulo {
 		max-width: 47%;
 	}
-	.jumbotron h1{
+
+	.jumbotron h1 {
 		font-size: 3rem;
 	}
 }
@@ -367,6 +373,7 @@ img {
 	.navbar {
 		padding: .8rem calc((100% - 117rem - 1.6rem) / 2);
 	}
+
 	#p-sobre {
 		text-align: justify;
 	}
@@ -377,10 +384,11 @@ img {
 }
 
 @media (min-width: 992px) {
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: 2.5rem !important;
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: 2.5rem !important;
 
-    }
+	}
+
 	#p-sobre {
 		text-align: justify;
 	}
@@ -388,7 +396,17 @@ img {
 	header {
 		width: 100vw;
 	}
+
 	.img-pedra {
+		width: 40%;
+	}
+}
+
+@media screen and (min-width: 453px) { 
+	.col-sm-12 {
+		max-width: 46% !important;
+	}
+	#img-logoBranco {
 		width: 40%;
 	}
 }
@@ -459,7 +477,7 @@ img {
 
 
 #img-logoBranco {
-	width: 40%;
+	width: 83%;
 }
 
 @media screen and (min-width: 960px) {
@@ -473,6 +491,10 @@ img {
 
 	.hero {
 		background-attachment: fixed;
+	}
+
+	#img-logoBranco {
+		width: 40%;
 	}
 
 }
@@ -530,5 +552,3 @@ img {
 /**********************************/
 /* 10. Modal
 /**********************************/
-
-
