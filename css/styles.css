@@ -148,8 +148,8 @@ header {
 	/* z-index: 1; */
 }
 
-.jumbotron-anuncie {
-	background-image: url(../assets/anuncie/anuncieaqui02.png);
+.jumbotron-top {
+	background-image: url(../assets/anuncie/fotoTop.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
