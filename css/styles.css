@@ -112,8 +112,8 @@ header {
 	margin-left: -15px;
 }
 
-.jumbotron-tassia {
-	background-image: url(../assets/fotos-noticias/tassiaComSombra.png);
+.jumbotron-02 {
+	background-image: url(../assets/fotos-noticias/02.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -125,8 +125,8 @@ header {
 	/* z-index: 1; */
 }
 
-.jumbotron-pedra {
-	background-image: url(../assets/pedra/canarinaComSombra.png);
+.jumbotron-01 {
+	background-image: url(../assets/pedra/suxx.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -135,8 +135,8 @@ header {
 	position: relative;
 }
 
-.jumbotron-fakenews {
-	background-image: url(../assets/fakenews/combateAFakeNewsComSombra.png);
+.jumbotron-03 {
+	background-image: url(../assets/fotos-noticias/03.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -222,6 +222,20 @@ section p {
 
 img {
 	border-radius: 10px;
+}
+
+/* Centraliza o contêiner da imagem */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Garantindo que a imagem não ultrapasse o tamanho da tela */
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 /**********************************/
