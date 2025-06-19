@@ -433,7 +433,7 @@ img {
 .hero {
 	background-image: url(../assets/fotos-noticias/barra\ do\ mendes-fotor-20240613192825.png);
 	position: relative;
-	min-height: 100vh;
+	min-height: 65vh;
 	display: flex;
 	align-items: center;
 	background-repeat: no-repeat;
