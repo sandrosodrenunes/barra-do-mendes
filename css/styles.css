@@ -532,7 +532,7 @@ img {
 	width: 100% !important;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     section p {
         font-size: 2rem;
         font-weight: 300;
