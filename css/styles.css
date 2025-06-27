@@ -532,6 +532,19 @@ img {
 	width: 100% !important;
 }
 
+@media (max-width: 400px) {
+    section p {
+        font-size: 2rem;
+        font-weight: 300;
+        text-align: left;
+        text-justify: inter-word;
+    }
+
+    .p-5 {
+        padding: 1rem !important;
+    }
+}
+
 
 /**********************************/
 /* 5. Diferenciais
