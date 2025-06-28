@@ -126,11 +126,11 @@ header {
 }
 
 .jumbotron-01 {
-	background-image: url(../assets/pedra/suxx.png);
+	background-image: url(../assets/fotos-noticias/01.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 70vh;
+	height: 100vh;
 	border-radius: 5px;
 	position: relative;
 }
