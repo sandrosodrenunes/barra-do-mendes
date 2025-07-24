@@ -425,6 +425,15 @@ img {
 	}
 }
 
+@media screen and (min-width: 320px) { 
+.jumbotron-01,
+.jumbotron-02,
+.jumbotron-03,
+jumbotron-top{
+		height: 49vh;
+	}
+}
+
 
 /**********************************/
 /* 3. Hero
