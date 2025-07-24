@@ -425,12 +425,18 @@ img {
 	}
 }
 
-@media screen and (min-width: 320px) { 
+@media screen and (max-width: 425px) { 
 .jumbotron-01,
 .jumbotron-02,
 .jumbotron-03,
 jumbotron-top{
 		height: 49vh;
+	}
+	.jumbotron h1 {
+		bottom: 450px;
+	}
+	.jumbotron p {
+		bottom: 423px;
 	}
 }
 
