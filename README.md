@@ -1,43 +1,73 @@
-# Meet Minas
+# Welcome to your Lovable project
 
-Nesse repositório você encontra os *starter files* de um projeto feito com HTML, CSS e Javascript. 
+## Project info
 
-Meet Minas é uma empresa ~~fictícia~~ de viagens, especializada em viagens pelo estado de Minas Gerais. Esse projeto consiste de um site responsivo utilizando a metodologia mobile-first, ou seja, ele é desenvolvido primeiro para dispositivos mobile e depois para telas maiores. Esse site é composto por Navbar, Hero Section, Sobre Nós, Nossos Diferenciais, Nossos Pacotes, Newsletter, Galeria e Footer.
+**URL**: https://lovable.dev/projects/5273d815-b476-4dfb-9f82-dea4e092111b
 
-- Você pode conferir o resultado final do projeto [clicando aqui](https://meetminas.surge.sh/).
-- Assista ao passo a passo (dividido em 14 partes) [clicando aqui](https://www.youtube.com/playlist?list=PL28O_hEAqjAvgaJOpfkmnOPHarc546QOt).
+## How can I edit this code?
 
-![Preview](/preview.png)
+There are several ways of editing your application.
 
-## Conteúdo extra
+**Use Lovable**
 
-Esse projeto possui conteúdos exclusivos, que são:
+Simply visit the [Lovable Project](https://lovable.dev/projects/5273d815-b476-4dfb-9f82-dea4e092111b) and start prompting.
 
-- Ebook explicando todo o projeto passo a passo, com mais de 120 snippets (trechos) de códigos explicados com imagens
-- Código completo do projeto
-- Código completo do projeto completamente comentado
-- Vídeo extra ensinando como fazer com que o usuário mova a galeria com eventos de toque no mobile (passando o mouse sobre a tela).
-- Arquivo Figma com o layout do projeto
+Changes made via Lovable will be committed automatically to this repo.
 
-Caso você deseje ter acesso a todo esse material extra, além de materiais de outros projetos, por favor considere fazer parte da minha comunidade e apoiar o meu trabalho [clicando aqui](https://inkasadev.alumy.com/). Muito obrigado!
+**Use your preferred IDE**
 
-## O que você irá aprender/praticar durante esse projeto:
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-- CSS
-  - Variáveis CSS
-  - Unidades CSS (rem, %, vh, px)
-  - Metologia BEM
-  - Media Queries
-  - Flexbox
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-- Javascript
-  - .querySelector()
-  - .querySelectorAll()
-  - .addEventListener()
-  - .add()
-  - .remove()
-  - .contains()
+Follow these steps:
 
-E muito mais.
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-Eu adoraria ver seu projeto finalizado. Por favor, marque-me no [Youtube](https://youtube.com/inkasadev), [Instagram](https://www.instagram.com/inkasadev/) (@inkasadev) ou [Twitter](https://twitter.com/inkasadev) (@inkasadev). 😉
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
+
+**Edit a file directly in GitHub**
+
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
+
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/5273d815-b476-4dfb-9f82-dea4e092111b) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
