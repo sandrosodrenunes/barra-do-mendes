@@ -53,10 +53,10 @@ const NewsHeader = () => {
             <a href="#" className="hover:text-accent transition-colors font-medium">
               Início
             </a>
-            <a href="#" className="hover:text-accent transition-colors font-medium">
+            <a href="noticia-politica" className="hover:text-accent transition-colors font-medium">
               Política
             </a>
-            <a href="#" className="hover:text-accent transition-colors font-medium">
+            <a href="noticia-seguraca" className="hover:text-accent transition-colors font-medium">
               Segurança
             </a>
             <a href="noticia-cultura" className="hover:text-accent transition-colors font-medium">
