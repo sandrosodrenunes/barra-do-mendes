@@ -30,7 +30,7 @@ const NoticiaCultura = () => {
             </Badge>
             
             <h1 className="headline-main mb-4">
-              Barra do Mendes inaugura Setor da Cultura e Galeria dos Prefeitos
+              Barra do Mendes inaugura Galeria dos Prefeitos
             </h1>
             
             <div className="flex items-center gap-6 text-text-light mb-6">
