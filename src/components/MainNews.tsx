@@ -11,8 +11,8 @@ const MainNews = () => {
       id: 1,
       category: "Política",
       categoryColor: "bg-news-primary",
-      title: "Rejeitados: A Câmara de Barra do Mendes rejeitou o Projeto de Lei do Executivo nº 002/2025",
-      summary: "vereadores Adriana, Bastos, Matheus Fideles e Medrado têm projeto de parcelamento negado na Câmara",
+      title: "Câmara Municipal solicita criação de pista de caminhada entre Barra do Mendes e Queimada do Mendes",
+      summary: "A Câmara Municipal de Barra do Mendes, através da Indicação nº 002/2025, protocolada no dia 26 de março de 2025, encaminhou ao prefeito Dr. Manoel Gabriel dos Santos",
       image: politicaImage,
       time: "há 4 horas",
       views: "856"
